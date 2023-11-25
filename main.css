@@ -1,0 +1,102 @@
+* {
+    box-sizing: content-box;
+
+}
+
+h2 {
+    color: forestgreen;
+}
+
+h3 {
+    color: peru;
+}
+
+.entertainment {
+    color: blueviolet;
+}
+
+
+
+.sustainability {
+    color: chartreuse;
+}
+
+.text_sustainability {
+    color: brown;
+}
+
+.game {
+    width: 640px;
+    height: 426;
+    padding: 8px;
+    border: 0cap;
+    margin: 0cap;
+    box-sizing:
+        border-box;
+}
+
+.game2 {
+    width: 640px;
+    height: 426;
+    padding: 8px;
+    border: 0cap;
+    margin: 0cap;
+    box-sizing:
+        border-box;
+}
+
+.game3 {
+    width: 640px;
+    height: 426;
+    padding: 8px;
+    border: 0cap;
+    margin: 0cap;
+    box-sizing:
+        border-box;
+}
+
+.solarplate {
+    width: 640px;
+    height: 426;
+    padding: 8px;
+    border: 0cap;
+    margin: 0cap;
+    box-sizing:
+        border-box;
+}
+
+.eólic {
+    width: 640px;
+    height: 426;
+    padding: 8px;
+    border: 0cap;
+    margin: 0cap;
+    box-sizing:
+        border-box;
+}
+
+.eólic2 {
+    width: 640px;
+    height: 426;
+    padding: 8px;
+    border: 0cap;
+    margin: 0cap;
+    box-sizing:
+        border-box;
+}
+
+#section01 {
+    background-color: cornflowerblue;
+}
+
+#section02 {
+    background-color: burlywood;
+}
+
+#ser01 {
+    background-color: aquamarine;
+}
+
+#ser02 {
+    background-color: brown;
+}
