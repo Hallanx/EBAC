@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Ephesis', cursive;
+}
+
+header {
+    font-family: 'Bungee', sans-serif;
+    font-size: 10px;
+    background-color: red;
+    color: rgb(176, 241, 141);
+    height: 8vh;
+
+}
+
+.header-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ulNav {
+    display: inline-flex;
+    list-style: none;
+    gap: 50px;
+
+}
+
+.nav {
+    display: flex;
+    width: 450px;
+    color: white;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navLi {
+    color: rgb(255, 255, 255);
+}
+
+img {
+    height: 24px;
+
+}
+
+#contact {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.liImg {
+    list-style: none;
+    display: inline;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.imgMaior {
+    height: 80%;
+}
+
+#about {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.social-links li {
+    display: inline;
+    text-decoration: none;
+}
+
+form button {
+    background-color: brown;
+    color: #fff;
+    border: none;
+}
+
+form button:hover {
+    background-color: rgb(199, 91, 91);
+    cursor: pointer;
+}
+
+imput:focus,
+textarea:focus {
+    outline-color: brown;
+}
+
+footer {
+    background-color: brown;
+    color: #fff;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+.footer {
+    max-width: 1000px;
+    margin: 0 auto;
+}
