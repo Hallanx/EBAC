@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    background-color: #192a52;
+    padding-top: 16px;
+    color: #fff;
+}
+
+header>.container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+header {
+    position: sticky;
+    top: 0%;
+    left: 0;
+}
+
+nav {
+    background-color: #575fcf;
+    padding: 16px 0;
+    display: none;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-hamburguer {
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu-hamburguer span {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+#sobre-a-loja {
+    /* /* max-width: 400px; */
+    margin: 0% auto;
+    display: flex
+}
+
+.sobre-loja {
+    max-width: 400px;
+    margin-right: 18px;
+}
+
+section {
+    padding: 48px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-veiculos {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lista-veiculos li {
+    list-style: none;
+    max-width: 30%;
+}
+
+.lista-veiculos li img {
+    max-width: 100%;
+}
+
+.lista-veiculos li h3 {
+    margin: 16px 0;
+}
+
+.lista-veiculos li button {
+    display: block;
+    margin-bottom: 18px;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+.lista-veiculos li strong {
+    margin: 16px 0;
+    display: block;
+}
+
+.price {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.container2 {
+    max-width: 1000px;
+    flex-direction: column;
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-start;
+
+}
+
+.form label,
+.form textarea {
+    width: 40%;
+    display: block;
+    padding: 8px;
+}
+
+.form textarea {
+    resize: none;
+    height: 120px;
+}
+
+.enviar {
+    display: block;
+    margin-bottom: 18px;
+    width: 10%;
+    padding: 8px 0;
+    border: none;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+    height: 12px;
+    width: 20px;
+}
+
+footer li img {
+    height: 20px;
+}
+
+.container3 {
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
