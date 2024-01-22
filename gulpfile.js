@@ -15,7 +15,7 @@ function comprimeJavaScript() {
     return gulp.src('./source/scripts/*.js')
         .pipe(uglify())
         .pipe(obfuscate())
-        .pipe(gup.dest('./build/scripts'))
+        .pipe(gulp.dest('./build/scripts'))
 }
 
 function compilaSass() {
@@ -29,7 +29,7 @@ function compilaSass() {
 }
 
 exports.default = function () {
-    exports.watch('./souce/styles/*.scss', {
+    exports.watch('./source/styles/*.scss', {
         ignoreInitial: false
     }, gulp.series(compilaSass));
     exports.watch('./source/scripts/*.js', {
